@@ -58,7 +58,7 @@ function App() {
 
         <div className="results">
           {currentResults.length === 0 ? (
-            <p>No books found, try searching for some...</p>
+            <p>Please Enter the Book Name</p>
           ) : (
             <div className="books-grid">
               {currentResults.map((book, index) => (
